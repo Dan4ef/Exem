@@ -17,7 +17,7 @@ Firstname.onclick = function()
     }
     else 
     {
-        if (num>=0) num = 1;
+        if (num >= 12) num = 1;
         else num++;
         $ajaxUtils.sendGetRequest("https://pr8kn.herokuapp.com/users/" + num, function(response) {
             const json = (JSON.parse(response.responseText))[0];
