@@ -1,6 +1,6 @@
-const Firstname = document.getElementById("name");
-const Imag = document.getElementById("photo");
-const Email = document.getElementById("mail");
+const Firstname = document.getElementById("firstnam");
+const Imag = document.getElementById("image");
+const Email = document.getElementById("em");
 let num = 0;
 let numb = 0;
 let start = {
@@ -19,7 +19,7 @@ Firstname.onclick = function()
     {
         if (num>=0) num = 1;
         else num++;
-        $ajaxUtils.sendGetRequest("https://tweekerapp19.herokuapp.com/users/" + num, function(response) {
+        $ajaxUtils.sendGetRequest("https://pr8kn.herokuapp.com/users/" + num, function(response) {
             const json = (JSON.parse(response.responseText))[0];
             Firstname.innerText = json.first_name + " " + json.last_name;
             Email.innerText = json.email;
