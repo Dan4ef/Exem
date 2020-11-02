@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: Century Gothic;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.back,
+.home {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.back>a,
+.home>a {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    background-color: #b38000;
+}
+
+.firstBlock {
+    background-color: #1e1e1e;
+    width: 30%;
+    float: left;
+    min-height: 100%;
+}
+
+.secondBlock {
+    background-color: white;
+    width: 65%;
+    float: left;
+    margin: 0px 40px;
+    min-height: 100%;
+    color: #505050;
+}
+
+.myImage {
+    text-align: center;
+}
+
+div img {
+    vertical-align: middle;
+}
+
+.vf {
+    text-align: center;
+    color: #efede9;
+}
+
+.orange {
+    color: #b38000;
+}
+
+.contacts {
+    color: white;
+    text-align: left;
+    margin: 0px 40px;
+    bottom: 0;
+    position: absolute;
+}
+
+.contacts a {
+    color: white;
+}
+
+.divimg {
+    text-align: center;
+}
+
+.myImage {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+.programming {
+    width: 20%;
+    float: left;
+}
+
+.compprog {
+    margin-top: 20px;
+    width: 20%;
+    float: left;
+}
