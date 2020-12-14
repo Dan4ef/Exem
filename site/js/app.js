@@ -19,7 +19,7 @@ Firstname.onclick = function()
     {
         if (num >= 12) num = 1;
         else num++;
-        $ajaxUtils.sendGetRequest("https://pr8kn.herokuapp.com/users/" + num, function(response) {
+        $ajaxUtils.sendGetRequest("https://exem.herokuapp.com/users/" + num, function(response) {
             const json = (JSON.parse(response.responseText))[0];
             Firstname.innerText = json.first_name + " " + json.last_name;
             Email.innerText = json.email;
